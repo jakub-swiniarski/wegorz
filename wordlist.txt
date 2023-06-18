@@ -45,3 +45,13 @@ property własnosc
 range zakres
 reversed wywrócony
 round zaokraglic
+set ustaw
+slice podziel
+sorted sortuj
+staticmethod metodastatyczna
+str tekst
+sum suma
+super super
+tuple krotka
+type typ
+vars zmienne
