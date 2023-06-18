@@ -1,0 +1,9 @@
+abs modul
+aiter ajter
+all wszytko
+any dowolne
+anext następny
+ascii ascii
+bin kosz
+bool wartosclog
+breakpoint
