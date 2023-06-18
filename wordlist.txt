@@ -15,3 +15,15 @@ compile kompiluj
 complex złożony
 dir adres
 enumerate wymien
+eval oblicz
+exec wykonaj
+filter filtruj
+float wartoscruch
+format formatuj
+frozenset zamrozonyzestaw
+global globalne
+hash haszysz
+help pomoc
+input wprowadzic
+int wartoscint
+isinstance jestinstancja
