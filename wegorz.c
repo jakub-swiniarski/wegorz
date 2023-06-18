@@ -1,19 +1,33 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int main(){
-    FILE* file;
-    file = fopen("wordlist.txt", "r");
-    char line[100];
-    
-    if (file == NULL) {
-        printf("Nie udalo sie otworzyc pliku zrodlowego wegorz.");
+#define MAX_LINE_LENGTH 50
+
+void translateFile(const char *inputFilename) {
+    FILE *wefile, *translate;
+    char wefileLine[MAX_LINE_LENGTH];
+    char translateLine[MAX_LINE_LENGTH];
+
+    wefile=fopen(inputFilename,"r+");
+    translate=fopen("wordlist.txt","r");
+
+    if(wefile==NULL){
+        printf("Blad przy wczytywaniu pliku zrodlowego wegorz.");
         return 1;
     }
 
-    while (fgets(line, sizeof(line), file) != NULL) {
-        printf("%s", line);
+    if(translate==NULL){
+        printf("Blad przy wczytywaniu pliku z tlumaczeniami.");
+        return 1;
     }
 
-    fclose(file); 
+    fclose(wefile);
+    fclose(translate);
+}
+
+int main(char *argv[]){
+    const char *inputFilename = argv[1];
+    translateFile(inputFilename);
     return 0;
 }
