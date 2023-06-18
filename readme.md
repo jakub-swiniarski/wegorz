@@ -1,0 +1,1 @@
+Python ale po polsku 
