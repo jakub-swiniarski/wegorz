@@ -3,7 +3,15 @@ aiter ajter
 all wszytko
 any dowolne
 anext następny
-ascii ascii
 bin kosz
 bool wartosclog
-breakpoint
+breakpoint przerwa
+bytearray tablicabajtow
+bytes bajt
+callable wywolywalne
+chr znak
+classmethod metodaklasowa
+compile kompiluj
+complex złożony
+dir adres
+enumerate wymien
