@@ -33,7 +33,7 @@ len dlugosc
 list lista
 locals lokalne
 map mapa
-max makymalnie
+max maks
 memoryview widokpamieciowy
 min minimum
 next następny
