@@ -12,7 +12,7 @@ callable wywolywalne
 chr znak
 classmethod metodaklasowa
 compile kompiluj
-complex złożony
+complex zlozony
 dir adres
 enumerate wymien
 eval oblicz
