@@ -7,7 +7,7 @@ bin kosz
 bool wartosclog
 breakpoint przerwa
 bytearray tablicabajtow
-bytes bajt
+bytes bajty
 callable wywolywalne
 chr znak
 classmethod metodaklasowa
