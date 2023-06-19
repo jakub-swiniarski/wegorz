@@ -27,15 +27,12 @@ void translateFile(const char *inputFilename) {
     translate=fopen("wordlist.txt","r");
     output=fopen(name,"w");
 
-
     if(wefile==NULL){
         printf("Blad przy wczytywaniu pliku zrodlowego wegorz.");
-        return 1;
     }
 
     if(translate==NULL){
         printf("Blad przy wczytywaniu pliku z tlumaczeniami.");
-        return 1;
     }
 
     while(fgets(wefileLine, sizeof(wefileLine), wefile) != NULL){
