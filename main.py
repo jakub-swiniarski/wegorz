@@ -1,4 +1,5 @@
 import sys
+import os
 name = sys.argv[1]
 print(name)
 
@@ -7,15 +8,6 @@ wrd = open("wordlist.txt",'r')
 out = open(name +"we.py", "a")
 
 F_word = wrd.read().split("\n")
-systm = ""
-import os
-from sys import platform
-if platform == "linux" or platform == "linux2":
-    systm = "python3"
-elif platform == "darwin":
-    systm = "python3"
-elif platform == "win32":
-    systm = "python"
 
 a = inp.read()
 
