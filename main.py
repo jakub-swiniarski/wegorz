@@ -30,4 +30,4 @@ try:
     os.system("pyinstaller " + name +"we.py")
     os.remove(name +"we.py")
 except:
-    print("install pyinstaller (pip install -U pyinstaller)")
+    print("install pyinstaller (pip or pip3 install -U pyinstaller)")
