@@ -3,7 +3,7 @@ aiter ajter
 all wszytko
 any dowolne
 anext anastępny
-bin kosz
+bin dwojkowy
 bool wartosclog
 breakpoint przerwa
 bytearray tablicabajtow
