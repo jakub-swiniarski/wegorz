@@ -34,7 +34,7 @@ list lista
 locals lokalne
 map mapa
 max makymalnie
-memoryview Widokpamieciowy
+memoryview widokpamieciowy
 min minimum
 next następny
 object objekt
