@@ -35,7 +35,7 @@ locals lokalne
 map mapa
 max maks
 memoryview widokpamieciowy
-min minimum
+min min
 next następny
 object objekt
 open otworz
