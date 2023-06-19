@@ -39,7 +39,7 @@ min minimum
 next następny
 object objekt
 open otworz
-pow moc
+pow potega
 print drukuj
 property własnosc
 range zakres
