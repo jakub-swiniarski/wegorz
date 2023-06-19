@@ -1,9 +1,10 @@
 import sys
-name = sys.argv[0]
+name = sys.argv[1]
+print(name)
 
 inp = open(name,"r")
 wrd = open("wordlist.txt",'r')
-out = open(name +".py", "a")
+out = open(name +"we.py", "a")
 
 F_word = wrd.read().split("\n")
 systm = ""
@@ -20,6 +21,13 @@ a = inp.read()
 
 for x in F_word:
     xy = x.split(" ")
-    a = a.replace(xy[1],xy[0])
-    
+    if len(xy) == 2:
+        a = a.replace(xy[1],xy[0])
+
 out.write(a)
+
+try:
+    os.system("pyinstaller " + name +"we.py")
+    os.remove(name +"we.py")
+except:
+    print("install pyinstaller (pip install -U pyinstaller)")
